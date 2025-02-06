@@ -21,6 +21,9 @@ redis:5.0.8-alpine
 # jenkins
 jenkins/jenkins:2.346.1
 
+# nacos
+nacos/nacos-server:2.3.0
+
 # rancher 1.6.17
 rancher/server:v1.6.17
 rancher/lb-service-haproxy:v0.9.14
