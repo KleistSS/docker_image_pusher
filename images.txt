@@ -4,5 +4,32 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+
+# mysql
 mysql:5.7
+mysql:8.0
+
+# rabbitMQ
+rabbitmq:management
+
+# postgresql
+postgres:16
+
+# redis
+redis:5.0.8-alpine
+
+# jenkins
+jenkins:2.433
+
+# rancher 1.6.17
 rancher/server:v1.6.17
+rancher/lb-service-haproxy:v0.9.14
+rancher/agent:v1.2.10
+rancher/dns:v0.17.3
+rancher/net:v0.13.11
+rancher/metadata:v0.10.2
+rancher/network-manager:v0.7.20
+rancher/scheduler:v0.8.3
+rancher/net:holder
+
+
