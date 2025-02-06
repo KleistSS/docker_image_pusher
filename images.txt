@@ -19,7 +19,7 @@ postgres:16
 redis:5.0.8-alpine
 
 # jenkins
-jenkins:2.433
+jenkins/jenkins:2.346.1
 
 # rancher 1.6.17
 rancher/server:v1.6.17
